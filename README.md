@@ -1,6 +1,6 @@
 # Alice
 
-Alice: A dark-based colorscheme for polyglot NeoVim programmers.
+A dark-based colorscheme for polyglot programmers.
 
 Made with [colorbuddy](https://github.com/tjdevries/colorbuddy.nvim).
 
