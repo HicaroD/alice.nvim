@@ -1,14 +1,10 @@
-# Hybrid Material Reversed
+# Alice
 
-My version of Hybrid Material Reversed colorscheme for Neovim.
+Alice: A dark-based colorscheme for polyglot NeoVim programmers.
 
 Made with [colorbuddy](https://github.com/tjdevries/colorbuddy.nvim).
 
 ## Installation
-
-TODO.
-
-## Options
 
 TODO.
 
