@@ -468,14 +468,57 @@
 --
 -- " }}}
 
+local colors_name = "alice"
+
+function highlight(group, table)
+  local fg = table.fg or "NONE"
+  local bg = table.bg or "NONE"
+  local gui = table.gui or "NONE"
+
+  local cmd = "highlight " .. group .. " guifg=" .. fg .. " guibg=" .. bg .. " gui=" .. gui
+  vim.cmd(cmd)
+end
+
 vim.cmd("hi! clear")
 vim.cmd("syntax reset")
 
-local groups = {}
+-- TODO: identify each highlight group
+--
+--
+-- Literals, como NULL, números, booleans, são laranjas
+local groups = {
+  Normal = {
+    bg = "#1d1f21" -- Grey (sorta of)
+  },
+  Statement = {
+    fg = "#b294bb" -- Purple
+  },
+  String = {
+    fg = "#b5bd68" -- Green
+  },
+  Identifier = {
+    fg = "#cc6666" -- Red
+  },
+  Constant = {
+    fg = "#de935f" -- Orange
+  },
+  Operator = {
+    fg = "#8abeb7" -- Aqua
+  },
+  Type = {
+    fg = "#b294bb" -- Purple
+  },
+  Function = {
+    fg = "#f0c674" -- Yellow
+  },
+  Special = {
+    -- fg = "#b294bb" -- Purple
+    fg = "#8abeb7" -- Aqua
+  },
+}
 
--- TODO: implement "highlighting" method based on that video: https://www.youtube.com/watch?v=qyKeorLz-Cg
--- See this too: https://www.reddit.com/r/neovim/comments/fm2tnz/how_to_make_a_colorscheme_for_nvim_and_other/
 
-for key, value in pairs(to_link) do
+
+for key, value in pairs(groups) do
   highlight(key, value)
 end
