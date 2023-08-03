@@ -174,18 +174,18 @@ highlight("Float", { fg = colors.orange })
 highlight("Identifier", { fg = colors.red })
 highlight("Function", { fg = colors.yellow })
 
-highlight("Repeat", { fg = colors.purple })
-highlight("Conditional", { fg = colors.purple })
 highlight("Statement", { fg = colors.purple })
+highlight("Conditional", { fg = colors.purple })
+highlight("Repeat", { fg = colors.purple })
 highlight("Label", { fg = colors.purple })
-
 highlight("Operator", { fg = colors.aqua })
+highlight("Keyword", { fg = colors.purple })
+
 highlight("PreProc", { fg = colors.aqua })
 highlight("Macro", { fg = colors.yellow })
 
 highlight("Type", { fg = colors.orange })
 highlight("StorageClass", { fg = colors.orange })
-highlight("Keyword", { fg = colors.purple })
 highlight("Special", { fg = colors.aqua })
 
 highlight("Structure", { fg = colors.aqua })
@@ -201,6 +201,7 @@ hl(0, "CocHighlightText", { fg = 'NONE', bg = colors.light_red })
 hl(0, "CocHighlightRead", { fg = 'NONE', bg = colors.light_red })
 hl(0, "CocHighlightWrite", { fg = 'NONE', bg = colors.light_red })
 -- @@@ TODO: nice error messages for LSP
+-- @@@ TODO: list of CoC lsp options is totally white, basically
 
 -- IndentBlankLine
 hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
