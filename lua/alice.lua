@@ -103,6 +103,7 @@ end
 vim.cmd("hi! clear")
 vim.cmd("syntax reset")
 
+-- @@@ TODO: organize colors in a better way
 local background = "#1d1f21";
 local foreground = "#c5c8c6";
 local bg_line = "#282a2e";
@@ -295,6 +296,7 @@ local groups = {
   Underlined = {
     fg = blue,
   },
+  -- @@@ TODO
   Ignore = {},
   Error = {
     fg = red,
