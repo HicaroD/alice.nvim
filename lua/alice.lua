@@ -124,6 +124,7 @@ local colors = {
   change_bg = "#5F5F87",
   change_fg = "#d7d7ff",
   darkcolumn = "#1c1c1c",
+  blank_lines = "#43464a",
 }
 
 highlight("CursorColumn", { bg = colors.bg_line })
@@ -195,6 +196,10 @@ highlight("qfLineNr", { fg = colors.yellow })
 highlight("Normal", { bg = colors.background })
 
 -- COC.nvim
-hl(0, 'CocHighlightText', { fg = 'NONE', bg = colors.light_red })
-hl(0, 'CocHighlightRead', { fg = 'NONE', bg = colors.light_red })
-hl(0, 'CocHighlightWrite', { fg = 'NONE', bg = colors.light_red })
+hl(0, "CocHighlightText", { fg = 'NONE', bg = colors.light_red })
+hl(0, "CocHighlightRead", { fg = 'NONE', bg = colors.light_red })
+hl(0, "CocHighlightWrite", { fg = 'NONE', bg = colors.light_red })
+-- @@@ TODO: nice error messages for LSP
+
+-- IndentBlankLine
+hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
