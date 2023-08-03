@@ -3,29 +3,29 @@
 -- let s:gui_line       = "#282a2e"
 -- let s:gui_comment    = "#707880"
 --
--- let s:palette.gui.background = { 'dark' : s:gui_background , 'light' : "#e4e4e4" }
--- let s:palette.gui.foreground = { 'dark' : "#c5c8c6"        , 'light' : "#000000" }
--- let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc" }
--- let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }
--- let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }
--- let s:palette.gui.red        = { 'dark' : "#cc6666"        , 'light' : "#5f0000" }
--- let s:palette.gui.orange     = { 'dark' : "#de935f"        , 'light' : "#875f00" }
--- let s:palette.gui.yellow     = { 'dark' : "#f0c674"        , 'light' : "#5f5f00" }
--- let s:palette.gui.green      = { 'dark' : "#b5bd68"        , 'light' : "#005f00" }
--- let s:palette.gui.aqua       = { 'dark' : "#8abeb7"        , 'light' : "#005f5f" }
--- let s:palette.gui.blue       = { 'dark' : "#81a2be"        , 'light' : "#00005f" }
--- let s:palette.gui.purple     = { 'dark' : "#b294bb"        , 'light' : "#5f005f" }
--- let s:palette.gui.window     = { 'dark' : "#303030"        , 'light' : "#9e9e9e" }
--- let s:palette.gui.darkcolumn = { 'dark' : "#1c1c1c"        , 'light' : "#808080" }
--- let s:palette.gui.addbg      = { 'dark' : "#5F875F"        , 'light' : "#d7ffd7" }
--- let s:palette.gui.addfg      = { 'dark' : "#d7ffaf"        , 'light' : "#005f00" }
--- let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        , 'light' : "#d7d7ff" }
--- let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        , 'light' : "#5f005f" }
--- let s:palette.gui.delbg      = { 'dark' : "#cc6666"        , 'light' : "#ffd7d7" }
--- let s:palette.gui.darkblue   = { 'dark' : "#00005f"        , 'light' : "#d7ffd7" }
--- let s:palette.gui.darkcyan   = { 'dark' : "#005f5f"        , 'light' : "#005f00" }
--- let s:palette.gui.darkred    = { 'dark' : "#5f0000"        , 'light' : "#d7d7ff" }
--- let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        , 'light' : "#5f005f" }
+-- let s:palette.gui.background = { 'dark' : s:gui_background }
+-- let s:palette.gui.foreground = { 'dark' : "#c5c8c6"        }
+-- let s:palette.gui.selection  = { 'dark' : s:gui_selection  }
+-- let s:palette.gui.line       = { 'dark' : s:gui_line       }
+-- let s:palette.gui.comment    = { 'dark' : s:gui_comment    }
+-- let s:palette.gui.red        = { 'dark' : "#cc6666"        }
+-- let s:palette.gui.orange     = { 'dark' : "#de935f"        }
+-- let s:palette.gui.yellow     = { 'dark' : "#f0c674"        }
+-- let s:palette.gui.green      = { 'dark' : "#b5bd68"        }
+-- let s:palette.gui.aqua       = { 'dark' : "#8abeb7"        }
+-- let s:palette.gui.blue       = { 'dark' : "#81a2be"        }
+-- let s:palette.gui.purple     = { 'dark' : "#b294bb"        }
+-- let s:palette.gui.window     = { 'dark' : "#303030"        }
+-- let s:palette.gui.darkcolumn = { 'dark' : "#1c1c1c"        }
+-- let s:palette.gui.addbg      = { 'dark' : "#5F875F"        }
+-- let s:palette.gui.addfg      = { 'dark' : "#d7ffaf"        }
+-- let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        }
+-- let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        }
+-- let s:palette.gui.delbg      = { 'dark' : "#cc6666"        }
+-- let s:palette.gui.darkblue   = { 'dark' : "#00005f"        }
+-- let s:palette.gui.darkcyan   = { 'dark' : "#005f5f"        }
+-- let s:palette.gui.darkred    = { 'dark' : "#5f0000"        }
+-- let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        }
 -- let s:fg_none = ' guifg=NONE ctermfg=NONE'
 
 -- " Generic Syntax Highlighting: (see :help group-name)"{{{
