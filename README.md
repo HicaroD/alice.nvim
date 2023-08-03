@@ -13,8 +13,7 @@ TODO.
 ## Inspirations
 
 1. Alice, my lovely girlfriend
-2. Hybrid Material Reverserd colorscheme
-3. CodeAesthetic
+2. CodeAesthetic, an incredible YouTube channel about coding
 
 ## License
 
