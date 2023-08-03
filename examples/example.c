@@ -44,6 +44,5 @@ int main() {
     count = 0;
     result = 0;
   }
-
   return 0;
 }

@@ -75,13 +75,29 @@
 
 local colors_name = "alice"
 
-function highlight(group, table)
+local hl = vim.api.nvim_set_hl
+
+function get_style(table)
   local fg = table.fg or "NONE"
   local bg = table.bg or "NONE"
   local gui = table.gui or "NONE"
 
-  local cmd = "highlight " .. group .. " guifg=" .. fg .. " guibg=" .. bg .. " gui=" .. gui
-  vim.cmd(cmd)
+  local style = { fg = fg, bg = bg }
+
+  if gui == "bold" then
+    style["bold"] = true
+  elseif gui == "italic" then
+    style["italic"] = true
+  elseif gui == "underline" then
+    style["underline"] = true
+  end
+
+  return style
+end
+
+function highlight(group, table)
+  local style = get_style(table)
+  hl(0, group, style)
 end
 
 vim.cmd("hi! clear")
@@ -231,7 +247,7 @@ local groups = {
   },
   Comment = {
     fg = comment,
-    -- TODO: let the user enable italic comments or not
+    -- @@@ TODO: let the user enable italic comments or not
     gui = "italic",
   },
   Constant = {
@@ -258,10 +274,17 @@ local groups = {
   },
   Type = {
     fg = orange,
-    -- gui = "bold",
+    -- @@@ TODO: let the user choose between bold types or not
+    gui = "bold",
   },
   Keyword = {
-    fg = aqua,
+    fg = purple,
+  },
+  Repeat = {
+    fg = purple,
+  },
+  Conditional = {
+    fg = purple,
   },
   Structure = {
     fg = aqua,
