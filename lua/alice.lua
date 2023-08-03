@@ -180,7 +180,8 @@ highlight("Statement", { fg = colors.purple })
 highlight("Label", { fg = colors.purple })
 
 highlight("Operator", { fg = colors.aqua })
-highlight("PreProc", { fg = colors.aqua, gui = "bold" })
+highlight("PreProc", { fg = colors.aqua })
+highlight("Macro", { fg = colors.yellow })
 
 highlight("Type", { fg = colors.orange })
 highlight("StorageClass", { fg = colors.orange })
