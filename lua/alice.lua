@@ -103,215 +103,79 @@ end
 vim.cmd("hi! clear")
 vim.cmd("syntax reset")
 
--- @@@ TODO: organize colors in a better way
-local background = "#1d1f21";
-local foreground = "#c5c8c6";
-local bg_line = "#282a2e";
-local comment = "#707880";
-local window = "#303030";
-local blue = "#81a2be";
-local purple = "#b294bb";
-local yellow = "#f0c674";
-local orange = "#de935f";
-local red = "#cc6666";
-local aqua = "#8abeb7";
-local green = "#b5bd68";
-local selection = "#373b41";
-local add_fg = "#d7ffaf";
-local add_bg = "#5F875F";
-local change_bg = "#5F5F87";
-local change_fg = "#d7d7ff";
-local delbg = "#cc6666";
-local darkcolumn = "#1c1c1c";
-
-local groups = {
-  CursorColumn = {
-    bg = bg_line,
-  },
-  CursorLine = {
-    bg = bg_line,
-  },
-  Directory = {
-    fg = blue,
-  },
-  DiffAdd = {
-    bg = add_bg,
-    fg = add_fg,
-  },
-  DiffChange = {
-    bg = change_fg,
-    fg = change_fg,
-  },
-  DiffDelete = {
-    fg = background,
-    bg = delbg,
-  },
-  DiffText = {
-    fg = background,
-    bg = blue,
-  },
-  ErrorMsg = {
-    fg = background,
-    bg = red,
-  },
-  VertSplit = {
-    fg = window,
-  },
-  Folded = {
-    bg = darkcolumn,
-    fg = comment,
-  },
-  FoldColumn = {
-    bg = darkcolumn,
-  },
-  SignColumn = {
-    bg = darkcolumn,
-  },
-  LineNr = {
-    fg = selection,
-  },
-  CursorLineNr = {
-    fg = yellow,
-    gui = "bold",
-  },
-  MatchParen = {
-    fg = aqua,
-    bg = change_bg,
-    gui = "bold",
-  },
-  ModeMsg = {
-    fg = green,
-  },
-  MoreMsg = {
-    fg = green,
-  },
-  NonText = {
-    fg = selection,
-  },
-  Pmenu = {
-    fg = foreground,
-    bg = selection,
-  },
-  PmenuSel = {
-    fg = foreground,
-    bg = selection,
-  },
-  Question = {
-    fg = green,
-  },
-  Search = {
-    fg = background,
-    bg = yellow,
-  },
-  SpecialKey = {
-    fg = selection,
-  },
-  SpellCap = {
-    fg = blue,
-  },
-  SpellLocal = {
-    fg = aqua,
-  },
-  SpellBad = {
-    fg = red,
-  },
-  SpellRare = {
-    fg = purple,
-  },
-  StatusLine = {
-    fg = comment,
-    bg = background,
-  },
-  StatusLineNC = {
-    fg = window,
-    bg = comment,
-  },
-  TabLine = {
-    fg = foreground,
-    bg = darkcolumn,
-  },
-  Title = {
-    fg = yellow,
-  },
-  Visual = {
-    bg = selection,
-  },
-  WarningMsg = {
-    fg = red,
-  },
-  LongLineWarning = {
-    bg = "#371F1C",
-    gui = "underline",
-  },
-  ColorColumn = {
-    bg = line,
-  },
-  Comment = {
-    fg = comment,
-    -- @@@ TODO: let the user enable italic comments or not
-    gui = "italic",
-  },
-  Constant = {
-    fg = purple,
-  },
-  String = {
-    fg = green,
-  },
-  Identifier = {
-    fg = red,
-  },
-  Function = {
-    fg = yellow,
-  },
-  Statement = {
-    fg = blue,
-  },
-  Operator = {
-    fg = aqua,
-  },
-  PreProc = {
-    fg = aqua,
-    gui = "bold",
-  },
-  Type = {
-    fg = orange,
-    -- @@@ TODO: let the user choose between bold types or not
-    gui = "bold",
-  },
-  Keyword = {
-    fg = purple,
-  },
-  Repeat = {
-    fg = purple,
-  },
-  Conditional = {
-    fg = purple,
-  },
-  Structure = {
-    fg = aqua,
-  },
-  Special = {
-    fg = blue,
-  },
-  Underlined = {
-    fg = blue,
-  },
-  -- @@@ TODO
-  Ignore = {},
-  Error = {
-    fg = red,
-  },
-  Todo = {
-    fg = add_fg,
-  },
-  qfLineNr = {
-    fg = yellow,
-  },
-  Normal = {
-    bg = background,
-  },
+local colors = {
+  background = "#1d1f21",
+  foreground = "#c5c8c6",
+  bg_line = "#282a2e",
+  comment = "#707880",
+  window = "#303030",
+  blue = "#81a2be",
+  purple = "#b294bb",
+  yellow = "#f0c674",
+  orange = "#de935f",
+  red = "#cc6666",
+  dark_red = "#371F1C",
+  aqua = "#8abeb7",
+  green = "#b5bd68",
+  selection = "#373b41",
+  add_fg = "#d7ffaf",
+  add_bg = "#5F875F",
+  change_bg = "#5F5F87",
+  change_fg = "#d7d7ff",
+  darkcolumn = "#1c1c1c",
 }
 
-for key, value in pairs(groups) do
-  highlight(key, value)
-end
+highlight("CursorColumn", { bg = colors.bg_line })
+highlight("CursorLine", { bg = colors.bg_line })
+highlight("Directory", { fg = colors.blue })
+highlight("DiffAdd", { fg = colors.add_fg, bg = colors.add_bg })
+highlight("DiffChange", { fg = colors.change_fg, bg = colors.change_fg })
+highlight("DiffDelete", { fg = colors.background, bg = colors.red })
+highlight("DiffText", { fg = colors.background, bg = colors.blue })
+highlight("ErrorMsg", { fg = colors.background, bg = colors.red })
+highlight("VertSplit", { fg = colors.window })
+highlight("Folded", { bg = colors.darkcolumn, fg = colors.comment })
+highlight("FoldColumn", { bg = colors.darkcolumn })
+highlight("SignColumn", { bg = colors.darkcolumn })
+highlight("LineNr", { fg = colors.selection })
+highlight("CursorLineNr", { fg = colors.yellow, gui = "bold" })
+highlight("MatchParen", { fg = colors.aqua, bg = colors.change_bg, gui = "bold" })
+highlight("ModeMsg", { fg = colors.green })
+highlight("MoreMsg", { fg = colors.green })
+highlight("NonText", { fg = colors.selection })
+highlight("Pmenu", { fg = colors.foreground, bg = colors.selection })
+highlight("PmenuSel", { fg = colors.foreground, bg = colors.dark, gui = "bold" })
+highlight("Question", { fg = colors.green })
+highlight("Search", { fg = colors.background, bg = colors.yellow })
+highlight("SpecialKey", { fg = colors.selection })
+highlight("SpellCap", { fg = colors.blue })
+highlight("SpellLocal", { fg = colors.aqua })
+highlight("SpellBad", { fg = colors.red })
+highlight("SpellRare", { fg = colors.purple })
+highlight("StatusLine", { fg = colors.comment, bg = colors.background })
+highlight("StatusLineNC", { fg = colors.window, bg = colors.comment })
+highlight("TabLine", { fg = colors.foreground, bg = colors.darkcolumn })
+highlight("Title", { fg = colors.yellow })
+highlight("Visual", { bg = colors.selection })
+highlight("WarningMsg", { fg = colors.red })
+highlight("LongLineWarning", { bg = colors.dark_red, gui = "underline" })
+highlight("ColorColumn", { bg = colors.line })
+highlight("Comment", { fg = colors.comment, gui = "italic" })
+highlight("Constant", { fg = colors.purple })
+highlight("String", { fg = colors.green })
+highlight("Identifier", { fg = colors.red })
+highlight("Function", { fg = colors.yellow })
+highlight("Statement", { fg = colors.blue })
+highlight("Operator", { fg = colors.aqua })
+highlight("PreProc", { fg = colors.aqua, gui = "bold" })
+-- @@@ TODO: let the user choose between bold types or not
+highlight("Type", { fg = colors.orange, gui = "bold" })
+highlight("Keyword", { fg = colors.purple })
+highlight("Repeat", { fg = colors.purple })
+highlight("Conditional", { fg = colors.purple })
+highlight("Structure", { fg = colors.aqua })
+highlight("Underlined", { fg = colors.blue })
+highlight("Error", { fg = colors.red })
+highlight("qfLineNr", { fg = colors.yellow })
+highlight("Normal", { bg = colors.background })
+highlight("Special", { fg = colors.blue })
