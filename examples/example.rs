@@ -9,6 +9,5 @@ fn add() {
 }
 
 fn main() {
-    // function call
     add();
 }

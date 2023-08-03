@@ -16,7 +16,6 @@ public class Example {
 
       while (i != -1) {
         System.out.print((char) i);
-
         // Reads next byte from the file
         i = input.read();
       }
