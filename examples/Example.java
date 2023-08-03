@@ -21,9 +21,7 @@ public class Example {
         i = input.read();
       }
       input.close();
-    }
-
-    catch (Exception e) {
+    } catch (Exception e) {
       e.getStackTrace();
     }
   }

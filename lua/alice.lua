@@ -114,6 +114,7 @@ local colors = {
   yellow = "#f0c674",
   orange = "#de935f",
   red = "#cc6666",
+  light_red = "#3b2e2e",
   dark_red = "#371F1C",
   aqua = "#8abeb7",
   green = "#b5bd68",
@@ -161,21 +162,39 @@ highlight("WarningMsg", { fg = colors.red })
 highlight("LongLineWarning", { bg = colors.dark_red, gui = "underline" })
 highlight("ColorColumn", { bg = colors.line })
 highlight("Comment", { fg = colors.comment, gui = "italic" })
-highlight("Constant", { fg = colors.purple })
+
+highlight("Constant", { fg = colors.orange })
 highlight("String", { fg = colors.green })
+highlight("Character", { fg = colors.orange })
+highlight("Number", { fg = colors.orange })
+highlight("Boolean", { fg = colors.orange })
+highlight("Float", { fg = colors.orange })
+
 highlight("Identifier", { fg = colors.red })
 highlight("Function", { fg = colors.yellow })
-highlight("Statement", { fg = colors.blue })
-highlight("Operator", { fg = colors.aqua })
-highlight("PreProc", { fg = colors.aqua, gui = "bold" })
--- @@@ TODO: let the user choose between bold types or not
-highlight("Type", { fg = colors.orange, gui = "bold" })
-highlight("Keyword", { fg = colors.purple })
+
 highlight("Repeat", { fg = colors.purple })
 highlight("Conditional", { fg = colors.purple })
+highlight("Statement", { fg = colors.purple })
+highlight("Label", { fg = colors.purple })
+
+highlight("Operator", { fg = colors.aqua })
+highlight("PreProc", { fg = colors.aqua, gui = "bold" })
+
+highlight("Type", { fg = colors.orange })
+highlight("StorageClass", { fg = colors.orange })
+highlight("Keyword", { fg = colors.purple })
+highlight("Special", { fg = colors.aqua })
+
 highlight("Structure", { fg = colors.aqua })
+highlight("Typedef", { fg = colors.aqua })
 highlight("Underlined", { fg = colors.blue })
 highlight("Error", { fg = colors.red })
 highlight("qfLineNr", { fg = colors.yellow })
+
 highlight("Normal", { bg = colors.background })
-highlight("Special", { fg = colors.blue })
+
+-- COC.nvim
+hl(0, 'CocHighlightText', { fg = 'NONE', bg = colors.light_red })
+hl(0, 'CocHighlightRead', { fg = 'NONE', bg = colors.light_red })
+hl(0, 'CocHighlightWrite', { fg = 'NONE', bg = colors.light_red })
