@@ -1,6 +1,10 @@
 # Program to check Armstrong numbers in a certain interval
 
 
+class A:
+    pass
+
+
 lower = 100
 upper = 2000
 
