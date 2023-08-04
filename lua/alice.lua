@@ -95,6 +95,7 @@ highlight("Folded", { bg = colors.darkcolumn, fg = colors.comment })
 highlight("FoldColumn", { bg = colors.darkcolumn })
 highlight("SignColumn", { bg = colors.darkcolumn })
 highlight("LineNr", { fg = colors.selection })
+highlight("SignColumn", { fg = colors.selection })
 highlight("CursorLineNr", { fg = colors.yellow, gui = "bold" })
 highlight("MatchParen", { fg = colors.aqua, bg = colors.change_bg, gui = "bold" })
 highlight("ModeMsg", { fg = colors.green })
@@ -162,3 +163,6 @@ highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
 -- IndentBlankLine
 hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
+
+-- @@@ TODO: add support to LuaLine
+-- @@@ TODO: add support to Telescope
