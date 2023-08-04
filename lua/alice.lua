@@ -156,9 +156,9 @@ highlight("Normal", { bg = colors.background })
 
 -- COC.nvim
 -- @@@ TODO: nice error messages for LSP
-hl(0, "CocHighlightText", { fg = 'NONE', bg = colors.light_red })
-hl(0, "CocHighlightRead", { fg = 'NONE', bg = colors.light_red })
-hl(0, "CocHighlightWrite", { fg = 'NONE', bg = colors.light_red })
+highlight("CocHighlightText", { bg = colors.light_red })
+highlight("CocHighlightRead", { bg = colors.light_red })
+highlight("CocHighlightWrite", { bg = colors.light_red })
 highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
 -- IndentBlankLine
