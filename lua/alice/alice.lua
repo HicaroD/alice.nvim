@@ -154,6 +154,8 @@ highlight("qfLineNr", { fg = colors.yellow })
 
 highlight("Normal", { bg = colors.background })
 
+-- Treesitter
+
 -- COC.nvim
 -- @@@ TODO: nice error messages for LSP
 highlight("CocHighlightText", { bg = colors.light_red })
