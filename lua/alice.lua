@@ -166,3 +166,4 @@ hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
 
 -- @@@ TODO: add support to LuaLine
 -- @@@ TODO: add support to Telescope
+-- @@@ TODO: add support to GitSigns
