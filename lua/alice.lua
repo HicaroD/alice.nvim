@@ -100,8 +100,10 @@ highlight("MatchParen", { fg = colors.aqua, bg = colors.change_bg, gui = "bold" 
 highlight("ModeMsg", { fg = colors.green })
 highlight("MoreMsg", { fg = colors.green })
 highlight("NonText", { fg = colors.selection })
+
 highlight("Pmenu", { fg = colors.foreground, bg = colors.selection })
-highlight("PmenuSel", { fg = colors.foreground, bg = colors.dark, gui = "bold" })
+highlight("PmenuSel", { fg = colors.dark, bg = colors.darkcolumn })
+
 highlight("Question", { fg = colors.green })
 highlight("Search", { fg = colors.background, bg = colors.yellow })
 highlight("SpecialKey", { fg = colors.selection })
@@ -152,11 +154,11 @@ highlight("qfLineNr", { fg = colors.yellow })
 highlight("Normal", { bg = colors.background })
 
 -- COC.nvim
+-- @@@ TODO: nice error messages for LSP
 hl(0, "CocHighlightText", { fg = 'NONE', bg = colors.light_red })
 hl(0, "CocHighlightRead", { fg = 'NONE', bg = colors.light_red })
 hl(0, "CocHighlightWrite", { fg = 'NONE', bg = colors.light_red })
--- @@@ TODO: nice error messages for LSP
--- @@@ TODO: list of CoC lsp options is totally white, basically
+highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
 -- IndentBlankLine
 hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
