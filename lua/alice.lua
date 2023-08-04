@@ -162,7 +162,7 @@ highlight("CocHighlightWrite", { bg = colors.light_red })
 highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
 -- IndentBlankLine
-hl(0, 'IndentBlanklineChar', { fg = colors.blank_lines })
+highlight("IndentBlanklineChar", { fg = colors.blank_lines })
 
 -- @@@ TODO: add support to LuaLine
 -- @@@ TODO: add support to Telescope
