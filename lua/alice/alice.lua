@@ -163,7 +163,8 @@ highlight("@variable.builtin", { gui = "italic" })
 highlight("@keyword.coroutine", { fg = colors.purple, gui = "italic" })
 
 -- COC.nvim
--- @@@ TODO: nice error messages for LSP
+-- @@@ TODO: change colors of errors, warning and hints
+-- @@@ TODO: change color of inlay hints
 highlight("CocHighlightText", { bg = colors.light_red })
 highlight("CocHighlightRead", { bg = colors.light_red })
 highlight("CocHighlightWrite", { bg = colors.light_red })
@@ -172,7 +173,6 @@ highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 -- IndentBlankLine
 highlight("IndentBlanklineChar", { fg = colors.blank_lines })
 
--- @@@ TODO: change color of text hints
 -- @@@ TODO: add support to LuaLine
 -- @@@ TODO: add support to Telescope
 -- @@@ TODO: add support to GitSigns
