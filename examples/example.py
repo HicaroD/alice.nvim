@@ -2,7 +2,11 @@
 
 
 class A:
-    pass
+    def __init__(self) -> None:
+        self.a = 12
+
+    async def something(self):
+        await something
 
 
 lower = 100

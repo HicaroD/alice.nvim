@@ -59,6 +59,7 @@ vim.cmd("hi! clear")
 vim.cmd("syntax reset")
 
 local colors = {
+  normal_text = "#D4D4D4",
   background = "#1d1f21",
   foreground = "#c5c8c6",
   bg_line = "#282a2e",
@@ -144,7 +145,7 @@ highlight("Macro", { fg = colors.yellow })
 
 highlight("Type", { fg = colors.orange })
 highlight("StorageClass", { fg = colors.orange })
-highlight("Special", { fg = colors.aqua })
+highlight("Special", { fg = colors.aqua  })
 
 highlight("Structure", { fg = colors.aqua })
 highlight("Typedef", { fg = colors.aqua })
@@ -152,9 +153,14 @@ highlight("Underlined", { fg = colors.blue })
 highlight("Error", { fg = colors.red })
 highlight("qfLineNr", { fg = colors.yellow })
 
-highlight("Normal", { bg = colors.background })
+highlight("Normal", { bg = colors.background, fg = colors.normal_text })
 
 -- Treesitter
+-- @@@ TODO: let the user choose between builtin functions bold or not
+highlight("@function.builtin", { gui = "bold" })
+highlight("@variable.builtin", { gui = "italic" })
+-- @@@ TODO: let the user decides if he wants italic or not
+highlight("@keyword.coroutine", { fg = colors.purple, gui = "italic" })
 
 -- COC.nvim
 -- @@@ TODO: nice error messages for LSP
@@ -166,6 +172,7 @@ highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 -- IndentBlankLine
 highlight("IndentBlanklineChar", { fg = colors.blank_lines })
 
+-- @@@ TODO: change color of text hints
 -- @@@ TODO: add support to LuaLine
 -- @@@ TODO: add support to Telescope
 -- @@@ TODO: add support to GitSigns
