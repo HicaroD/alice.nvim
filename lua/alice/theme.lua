@@ -96,6 +96,7 @@ theme.set_style = function()
   highlight("Underlined", { fg = colors.blue })
   highlight("Error", { fg = colors.error_red })
   highlight("qfLineNr", { fg = colors.yellow })
+  highlight("Todo", { fg = colors.yellow })
 
   highlight("Normal", { bg = colors.background, fg = colors.normal_text })
 
@@ -117,6 +118,10 @@ theme.set_style = function()
   highlight("@field", { fg = colors.red })
   highlight("@constructor", { fg = colors.yellow })
   highlight("@constant", { fg = colors.tifanny_blue_aqua })
+
+  -- NOTE: Important for making JSX be closer to HTML
+  highlight("@tag", { fg = colors.purple })
+  highlight("@type.attribute", { fg = colors.yellow })
 
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
