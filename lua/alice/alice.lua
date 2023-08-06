@@ -59,7 +59,7 @@ vim.cmd("hi! clear")
 vim.cmd("syntax reset")
 
 local colors = {
-  normal_text = "#D4D4D4",
+  normal_text = "#edf4fa",
   background = "#1d1f21",
   foreground = "#c5c8c6",
   bg_line = "#282a2e",
