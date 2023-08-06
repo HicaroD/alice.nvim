@@ -4,7 +4,13 @@ A dark-based colorscheme for polyglot programmers.
 
 ## Installation
 
-TODO.
+```lua
+use "HicaroD/alice.nvim"
+```
+
+## Supported plugins
+
+1. Treesitter
 
 ## Thanks to
 
