@@ -128,9 +128,9 @@ theme.set_style = function()
   highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
   highlight("CocUnusedHighlight", { bg = colors.french_blue })
 
-  highlight("CocInlayHint", { fg = colors.selection })
-  highlight("CocInlayHintParameter", { fg = colors.selection })
-  highlight("CocInlayHintType", { fg = colors.selection })
+  highlight("CocInlayHint", { fg = colors.window })
+  highlight("CocInlayHintParameter", { fg = colors.window })
+  highlight("CocInlayHintType", { fg = colors.window })
 
   -- IndentBlankLine
   highlight("IndentBlanklineChar", { fg = colors.blank_lines })
