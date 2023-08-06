@@ -4,6 +4,8 @@ A dark-based colorscheme for polyglot programmers.
 
 ## Installation
 
+1. Packer
+
 ```lua
 use "HicaroD/alice.nvim"
 ```
