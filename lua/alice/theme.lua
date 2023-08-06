@@ -75,7 +75,7 @@ theme.set_style = function()
   highlight("Float", { fg = colors.orange })
 
   highlight("Identifier", { fg = colors.red })
-  highlight("Function", { fg = colors.light_sky_blue })
+  highlight("Function", { fg = colors.maya_blue })
 
   highlight("Statement", { fg = colors.purple })
   highlight("Conditional", { fg = colors.purple })
@@ -109,7 +109,7 @@ theme.set_style = function()
   highlight("@type.builtin", { fg = colors.yellow })
 
   highlight("@function.builtin", { fg = colors.purple })
-  highlight("@variable.builtin", { fg = colors.maya_blue })
+  highlight("@variable.builtin", { fg = colors.light_sky_blue })
 
   highlight("@attribute", { fg = colors.aqua })
   highlight("@error", { fg = colors.error_red })
