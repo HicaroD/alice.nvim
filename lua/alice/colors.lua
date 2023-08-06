@@ -9,6 +9,7 @@ local colors = {
   french_blue = "#007ACC",
   columbia_blue = "#BBD5F2",
   argentinian_blue = "#47B6FF",
+  maya_blue = "#70C6FF",
   purple = "#b294bb",
   purple_amethyst = "#A663CC",
   pink = "#E6AACE",
