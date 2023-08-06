@@ -123,7 +123,7 @@ highlight("LongLineWarning", { bg = colors.dark_red, gui = "underline" })
 highlight("ColorColumn", { bg = colors.line })
 highlight("Comment", { fg = colors.comment, gui = "italic" })
 
-highlight("Constant", { fg = colors.orange })
+highlight("Constant", { fg = colors.aqua })
 highlight("String", { fg = colors.green })
 highlight("Character", { fg = colors.orange })
 highlight("Number", { fg = colors.orange })
@@ -131,7 +131,7 @@ highlight("Boolean", { fg = colors.orange })
 highlight("Float", { fg = colors.orange })
 
 highlight("Identifier", { fg = colors.red })
-highlight("Function", { fg = colors.yellow })
+highlight("Function", { fg = colors.blue })
 
 highlight("Statement", { fg = colors.purple })
 highlight("Conditional", { fg = colors.purple })
@@ -143,7 +143,7 @@ highlight("Keyword", { fg = colors.purple })
 highlight("PreProc", { fg = colors.aqua })
 highlight("Macro", { fg = colors.yellow })
 
-highlight("Type", { fg = colors.orange })
+highlight("Type", { fg = colors.yellow })
 highlight("StorageClass", { fg = colors.orange })
 highlight("Special", { fg = colors.aqua  })
 
@@ -156,11 +156,12 @@ highlight("qfLineNr", { fg = colors.yellow })
 highlight("Normal", { bg = colors.background, fg = colors.normal_text })
 
 -- Treesitter
--- @@@ TODO: let the user choose between builtin functions bold or not
-highlight("@function.builtin", { gui = "bold" })
-highlight("@variable.builtin", { gui = "italic" })
 -- @@@ TODO: let the user decides if he wants italic or not
 highlight("@keyword.coroutine", { fg = colors.purple, gui = "italic" })
+highlight("@type.qualifier", { fg = colors.purple })
+highlight("@function.builtin", { fg = colors.purple })
+highlight("@variable.builtin", { fg = colors.yellow })
+highlight("@type.builtin", { fg = colors.yellow })
 
 -- COC.nvim
 -- @@@ TODO: change colors of errors, warning and hints

@@ -1,6 +1,9 @@
 # Program to check Armstrong numbers in a certain interval
 
 
+MY_CONSTANT = "VALUE"
+
+
 class A:
     def __init__(self) -> None:
         self.a = 12
