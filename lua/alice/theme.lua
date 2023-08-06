@@ -1,3 +1,6 @@
+local theme = {}
+local hl = vim.api.nvim_set_hl
+
 function get_style(table)
   local fg = table.fg or "NONE"
   local bg = table.bg or "NONE"
@@ -21,19 +24,7 @@ function highlight(group, table)
   hl(0, group, style)
 end
 
-local alice = {}
-
-alice.load = function()
-  vim.cmd('hi clear')
-  if vim.fn.exists('syntax_on') then
-    vim.cmd('syntax reset')
-  end
-
-  vim.o.termguicolors = true
-  vim.g.colors_name = "alice"
-
-  local hl = vim.api.nvim_set_hl
-
+theme.set_style = function()
   local colors = require("alice.colors")
 
   highlight("CursorColumn", { bg = colors.bg_line })
@@ -98,7 +89,7 @@ alice.load = function()
 
   highlight("Type", { fg = colors.yellow })
   highlight("StorageClass", { fg = colors.orange })
-  highlight("Special", { fg = colors.aqua  })
+  highlight("Special", { fg = colors.aqua })
 
   highlight("Structure", { fg = colors.aqua })
   highlight("Typedef", { fg = colors.aqua })
@@ -133,4 +124,4 @@ alice.load = function()
   -- @@@ TODO: add support to GitSigns
 end
 
-return alice
+return theme
