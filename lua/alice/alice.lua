@@ -162,6 +162,7 @@ highlight("@type.qualifier", { fg = colors.purple })
 highlight("@function.builtin", { fg = colors.purple })
 highlight("@variable.builtin", { fg = colors.yellow })
 highlight("@type.builtin", { fg = colors.yellow })
+highlight("@attribute", { fg = colors.aqua })
 
 -- COC.nvim
 -- @@@ TODO: change colors of errors, warning and hints
