@@ -6,6 +6,7 @@ local colors = {
   comment = "#707880",
   window = "#303030",
   blue = "#81a2be",
+  french_blue = "#007ACC",
   columbia_blue = "#BBD5F2",
   purple = "#b294bb",
   purple_amethyst = "#A663CC",

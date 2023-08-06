@@ -67,7 +67,7 @@ theme.set_style = function()
   highlight("ColorColumn", { bg = colors.line })
   highlight("Comment", { fg = colors.comment, gui = "italic" })
 
-  highlight("Constant", { fg = colors.aqua })
+  highlight("Constant", { fg = colors.french_blue })
   highlight("String", { fg = colors.green })
   highlight("Character", { fg = colors.orange })
   highlight("Number", { fg = colors.orange })
@@ -115,6 +115,7 @@ theme.set_style = function()
   highlight("@error", { fg = colors.error_red })
   highlight("@parameter", { fg = colors.orange })
   highlight("@constructor", { fg = colors.yellow })
+  highlight("@constant", { fg = colors.french_blue })
 
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
