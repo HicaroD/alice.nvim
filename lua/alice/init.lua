@@ -1,6 +1,6 @@
 local alice = {}
 
-local theme = require("alice.theme")
+local theme = require("lua.alice.theme")
 
 alice.load = function()
   vim.cmd('hi clear')

@@ -25,7 +25,7 @@ function highlight(group, table)
 end
 
 theme.set_style = function()
-  local colors = require("alice.colors")
+  local colors = require("lua.alice.colors")
 
   highlight("CursorColumn", { bg = colors.bg_line })
   highlight("CursorLine", { bg = colors.bg_line })
