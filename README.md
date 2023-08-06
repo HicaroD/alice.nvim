@@ -10,7 +10,9 @@ use "HicaroD/alice.nvim"
 
 ## Supported plugins
 
-1. Treesitter
+1. [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+2. [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+3. [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ## Thanks to
 
