@@ -31,7 +31,7 @@ local colors = {
   change_fg = "#D7D7FF",
   darkcolumn = "#1C1C1C",
   blank_lines = "#43464A",
-  dim_gray = "#697077",
+  slate_gray = "#7D848C",
 }
 
 return colors
