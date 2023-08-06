@@ -7,6 +7,7 @@ local colors = {
   window = "#303030",
   blue = "#81a2be",
   purple = "#b294bb",
+  purple_amethyst = "#A663CC",
   yellow = "#f0c674",
   orange = "#de935f",
   red = "#cc6666",

@@ -104,10 +104,13 @@ theme.set_style = function()
   -- @@@ TODO: Is red a good color for identifiers? My eyes think it is too much, especially when there is
   -- too many variable together, which will happen very often in coding (maybe I could try the same light blue than vscode uses)
   highlight("@keyword.coroutine", { fg = colors.purple })
+
   highlight("@type.qualifier", { fg = colors.purple })
-  highlight("@function.builtin", { fg = colors.purple })
-  highlight("@variable.builtin", { fg = colors.aqua })
   highlight("@type.builtin", { fg = colors.yellow })
+
+  highlight("@function.builtin", { fg = colors.purple })
+  highlight("@variable.builtin", { fg = colors.purple_amethyst })
+
   highlight("@attribute", { fg = colors.aqua })
   highlight("@error", { fg = colors.error_red })
   highlight("@parameter", { fg = colors.orange })
