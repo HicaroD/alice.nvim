@@ -119,10 +119,6 @@ theme.set_style = function()
   highlight("@constructor", { fg = colors.yellow })
   highlight("@constant", { fg = colors.tifanny_blue_aqua })
 
-  -- NOTE: Important for making JSX be closer to HTML
-  highlight("@tag", { fg = colors.purple })
-  highlight("@type.attribute", { fg = colors.yellow })
-
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
   -- @@@ TODO: change color of inlay hints
