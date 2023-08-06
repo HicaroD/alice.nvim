@@ -126,7 +126,7 @@ theme.set_style = function()
   highlight("CocHighlightRead", { bg = colors.light_red })
   highlight("CocHighlightWrite", { bg = colors.light_red })
   highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
-  highlight("CocUnusedHighlight", { bg = colors.light_sky_blue })
+  highlight("CocUnusedHighlight", { bg = colors.french_blue })
 
   -- IndentBlankLine
   highlight("IndentBlanklineChar", { fg = colors.blank_lines })
