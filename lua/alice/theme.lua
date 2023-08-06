@@ -114,6 +114,7 @@ theme.set_style = function()
   highlight("@attribute", { fg = colors.aqua })
   highlight("@error", { fg = colors.error_red })
   highlight("@parameter", { fg = colors.orange })
+  highlight("@field", { fg = colors.orange })
   highlight("@constructor", { fg = colors.yellow })
   highlight("@constant", { fg = colors.light_blue })
 
