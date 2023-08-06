@@ -22,6 +22,7 @@ local colors = {
   error_red = "#CF3030",
   aqua = "#8ABEB7",
   light_blue = "#BDDBD7",
+  tifanny_blue_aqua = "#A2CDC7",
   green = "#B5BD68",
   selection = "#373B41",
   add_fg = "#D7FFAF",
