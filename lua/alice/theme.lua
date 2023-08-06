@@ -111,6 +111,7 @@ theme.set_style = function()
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
   -- @@@ TODO: change color of inlay hints
+  -- @@@ TODO: change color of letters when completing with Coc
   highlight("CocHighlightText", { bg = colors.light_red })
   highlight("CocHighlightRead", { bg = colors.light_red })
   highlight("CocHighlightWrite", { bg = colors.light_red })
