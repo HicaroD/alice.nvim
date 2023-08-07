@@ -114,10 +114,10 @@ theme.set_style = function()
 
   highlight("@attribute", { fg = colors.aqua })
   highlight("@error", { fg = colors.error_red })
-  highlight("@parameter", { fg = colors.uranian_blue })
-  highlight("@field", { fg = colors.uranian_blue })
+  highlight("@parameter", { fg = colors.vsc_light_blue })
+  highlight("@field", { fg = colors.vsc_light_blue })
   highlight("@constructor", { fg = colors.yellow })
-  highlight("@constant", { fg = colors.tifanny_blue_aqua })
+  highlight("@constant", { fg = colors.green })
 
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
