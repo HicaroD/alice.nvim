@@ -107,7 +107,7 @@ theme.set_style = function()
   highlight("@keyword.coroutine", { fg = colors.purple })
 
   highlight("@type.qualifier", { fg = colors.purple })
-  highlight("@type.builtin", { fg = colors.yellow })
+  highlight("@type.builtin", { fg = colors.orange })
 
   highlight("@function.builtin", { fg = colors.purple })
   highlight("@variable.builtin", { fg = colors.vsc_light_blue })
