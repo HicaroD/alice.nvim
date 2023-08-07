@@ -129,13 +129,13 @@ theme.set_style = function()
   highlight("CocHighlightWrite", { bg = colors.light_red })
   highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
-  highlight("CocErrorSign", { fg = colors.red })
+  highlight("CocErrorSign", { fg = colors.error_red })
   highlight("CocWarningSign", { fg = colors.yellow })
   highlight("CocInfoSign", { fg = colors.purple })
   highlight("CocInfoSign", { fg = colors.maya_blue })
   highlight("CocUnusedHighlight", { fg = colors.purple, gui = "underline" })
 
-  highlight("CocErrorHighlight", { fg = colors.red, gui = "underline" })
+  highlight("CocErrorHighlight", { fg = colors.error_red, gui = "underline" })
 
   highlight("CocInlayHint", { fg = colors.slate_gray })
   highlight("CocInlayHintParameter", { fg = colors.slate_gray })
