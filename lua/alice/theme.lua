@@ -110,7 +110,7 @@ theme.set_style = function()
   highlight("@type.builtin", { fg = colors.yellow })
 
   highlight("@function.builtin", { fg = colors.purple })
-  highlight("@variable.builtin", { fg = colors.argentinian_blue })
+  highlight("@variable.builtin", { fg = colors.vsc_light_blue })
 
   highlight("@attribute", { fg = colors.aqua })
   highlight("@error", { fg = colors.error_red })
