@@ -133,9 +133,9 @@ theme.set_style = function()
   highlight("CocWarningSign", { fg = colors.yellow })
   highlight("CocInfoSign", { fg = colors.purple })
   highlight("CocInfoSign", { fg = colors.maya_blue })
-  highlight("CocUnusedHighlight", { gui = "underline" })
+  highlight("CocUnusedHighlight", { fg = colors.purple, gui = "underline" })
 
-  highlight("CocErrorHighlight", { fg = colors.red })
+  highlight("CocErrorHighlight", { fg = colors.red, gui = "underline" })
 
   highlight("CocInlayHint", { fg = colors.slate_gray })
   highlight("CocInlayHintParameter", { fg = colors.slate_gray })
