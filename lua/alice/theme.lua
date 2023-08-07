@@ -131,10 +131,14 @@ theme.set_style = function()
 
   highlight("CocErrorSign", { fg = colors.error_red })
   highlight("CocWarningSign", { fg = colors.yellow })
-  highlight("CocInfoSign", { fg = colors.purple_amethyst })
+  highlight("CocInfoSign", { fg = colors.maya_blue })
   highlight("CocHintSign", { fg = colors.maya_blue })
-  highlight("CocUnusedHighlight", { fg = colors.purple, gui = "underline" })
 
+  highlight("CocErrorHighlight", { fg = colors.error_red })
+  highlight("CocUnusedHighlight", { fg = colors.purple, gui = "underline" })
+  highlight("CocWarningHighlight", { fg = colors.yellow })
+  highlight("CocInfoHighlight", { fg = colors.maya_blue })
+  highlight("CocHintHighlight", { fg = colors.maya_blue })
   highlight("CocErrorHighlight", { fg = colors.error_red, gui = "underline" })
 
   highlight("CocInlayHint", { fg = colors.slate_gray })
