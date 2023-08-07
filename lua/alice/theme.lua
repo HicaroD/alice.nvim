@@ -74,7 +74,7 @@ theme.set_style = function()
   highlight("Boolean", { fg = colors.orange })
   highlight("Float", { fg = colors.orange })
 
-  highlight("Identifier", { fg = colors.red })
+  highlight("Identifier", { fg = colors.alice_blue })
   highlight("Function", { fg = colors.maya_blue })
 
   highlight("Statement", { fg = colors.purple })
@@ -98,7 +98,7 @@ theme.set_style = function()
   highlight("qfLineNr", { fg = colors.yellow })
   highlight("Todo", { fg = colors.yellow })
 
-  highlight("Normal", { bg = colors.background, fg = colors.alice_blue })
+  highlight("Normal", { bg = colors.background, fg = colors.normal_text })
 
   -- Treesitter
   -- @@@ TODO: change parameters / arguments colors
