@@ -117,6 +117,7 @@ theme.set_style = function()
   highlight("@field", { fg = colors.vsc_light_blue })
   highlight("@constructor", { fg = colors.yellow })
   highlight("@constant", { fg = colors.orange })
+  highlight("@constant.builtin", { fg = colors.orange })
 
   -- COC.nvim
   -- @@@ TODO: change colors of errors, warning and hints
