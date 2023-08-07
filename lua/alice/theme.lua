@@ -98,7 +98,7 @@ theme.set_style = function()
   highlight("qfLineNr", { fg = colors.yellow })
   highlight("Todo", { fg = colors.yellow })
 
-  highlight("Normal", { bg = colors.background, fg = colors.normal_text })
+  highlight("Normal", { bg = colors.background, fg = colors.alice_blue })
 
   -- Treesitter
   -- @@@ TODO: change parameters / arguments colors

@@ -6,6 +6,7 @@ local colors = {
   comment = "#707880",
   window = "#303030",
   blue = "#81A2BE",
+  alice_blue = "#DAECFB",
   french_blue = "#007ACC",
   columbia_blue = "#BBD5F2",
   argentinian_blue = "#47B6FF",
