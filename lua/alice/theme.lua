@@ -128,7 +128,11 @@ theme.set_style = function()
   highlight("CocHighlightRead", { bg = colors.light_red })
   highlight("CocHighlightWrite", { bg = colors.light_red })
   highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
-  highlight("CocUnusedHighlight", { bg = colors.french_blue })
+
+  highlight("CocErrorSign", { fg = colors.red })
+  highlight("CocWarningSign", { fg = colors.yellow })
+  highlight("CocInfoSign", { fg = colors.purple })
+  highlight("CocUnusedHighlight", { gui = "underline" })
 
   highlight("CocInlayHint", { fg = colors.slate_gray })
   highlight("CocInlayHintParameter", { fg = colors.slate_gray })
