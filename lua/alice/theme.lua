@@ -75,7 +75,7 @@ theme.set_style = function()
   highlight("Float", { fg = colors.orange })
 
   highlight("Identifier", { fg = colors.light_sky_blue })
-  highlight("Function", { fg = colors.maya_blue })
+  highlight("Function", { fg = colors.red })
 
   highlight("Statement", { fg = colors.purple })
   highlight("Conditional", { fg = colors.purple })
