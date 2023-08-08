@@ -25,8 +25,11 @@ alice.visual = {
 }
 
 -- Yellow
--- @@@ TODO
--- alice.inactive = {}
+alice.inactive = {
+  a = { fg = colors.grey, gui = 'bold' },
+  -- b = { fg = colors.inactive, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- c = { fg = colors.inactive, bg = config.opts.transparent and 'NONE' or colors.bg },
+}
 
 -- Orange
 alice.replace = {
