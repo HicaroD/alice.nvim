@@ -74,7 +74,8 @@ theme.set_style = function()
   highlight("Boolean", { fg = colors.orange })
   highlight("Float", { fg = colors.orange })
 
-  highlight("Identifier", { fg = colors.uranian_blue })
+  -- highlight("Identifier", { fg = colors.uranian_blue })
+  highlight("Identifier", { fg = colors.alice_blue })
   highlight("Function", { fg = colors.red })
 
   highlight("Statement", { fg = colors.purple })
