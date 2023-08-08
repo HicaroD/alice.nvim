@@ -18,11 +18,11 @@ use "HicaroD/alice.nvim"
 
 ## Screenshots
 
-[java](./screenshots/java.png)
+![java](./screenshots/java.png)
 
-[typescript](./screenshots/typescript.png)
+![typescript](./screenshots/typescript.png)
 
-[flutter_dart](./screenshots/flutter_dart.png)
+![flutter_dart](./screenshots/flutter_dart.png)
 
 ## Thanks to
 
