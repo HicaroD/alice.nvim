@@ -11,52 +11,45 @@ local colors = {
   red = "#CC6666",
 }
 
--- Green
 alice.normal = {
   a = { fg = colors.grey, bg = colors.green, gui = 'bold' },
-  -- b = { fg = colors.blue, bg = config.opts.transparent and 'NONE' or colors.bg2 },
-  -- c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
--- Purple
 alice.visual = {
   a = { fg = colors.grey, bg = colors.purple, gui = 'bold' },
-  -- b = { fg = colors.yellow, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
 }
 
--- Yellow
 alice.inactive = {
   a = { fg = colors.grey, gui = 'bold' },
-  -- b = { fg = colors.inactive, bg = config.opts.transparent and 'NONE' or colors.bg },
-  -- c = { fg = colors.inactive, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
--- Orange
 alice.replace = {
   a = { fg = colors.grey, bg = colors.orange, gui = 'bold' },
-  -- b = { fg = colors.red, bg = config.opts.transparent and 'NONE' or colors.bg2 },
-  -- c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
--- Blue
 alice.insert = {
   a = { fg = colors.grey, bg = colors.blue, gui = 'bold' },
-  -- b = { fg = colors.green, bg = config.opts.transparent and 'NONE' or colors.bg2 },
-  -- c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
--- Pink
 alice.terminal = {
   a = { fg = colors.grey, bg = colors.pink, gui = 'bold' },
-  -- b = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg2 },
-  -- c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
--- Red
 alice.command = {
   a = { fg = colors.grey, bg = colors.red, gui = 'bold' },
-  -- b = { fg = colors.pink, bg = config.opts.transparent and 'NONE' or colors.bg2 },
-  -- c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
+  -- b = { },
+  -- c = { },
 }
 
 return alice
