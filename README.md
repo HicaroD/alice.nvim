@@ -16,6 +16,14 @@ use "HicaroD/alice.nvim"
 2. [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 3. [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 
+## Screenshots
+
+[java](./screenshots/java.png)
+
+[typescript](./screenshots/typescript.png)
+
+[flutter_dart](./screenshots/flutter_dart.png)
+
 ## Thanks to
 
 - [kristijanhusak/vim-hybrid-material](https://github.com/kristijanhusak/vim-hybrid-material)
