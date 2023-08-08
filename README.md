@@ -12,7 +12,7 @@ use "HicaroD/alice.nvim"
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
-```vimscript
+```vim
 Plug "HicaroD/alice.nvim"
 ```
 
