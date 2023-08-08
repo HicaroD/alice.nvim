@@ -16,9 +16,9 @@ local colors = {
 }
 
 alice.normal = {
-    a = { colors.fg, bg = colors.green, gui = 'bold' },
-    b = { fg = colors.green, bg = colors.bg },
-    c = { fg = colors.fg, bg = colors.bg },
+  a = { colors.fg, bg = colors.green, gui = 'bold' },
+  b = { fg = colors.green, bg = colors.bg },
+  c = { fg = colors.fg, bg = colors.bg },
 }
 
 alice.inactive = {
@@ -28,32 +28,32 @@ alice.inactive = {
 }
 
 alice.visual = {
-    a = { fg = colors.bg, bg = colors.purple, gui = 'bold' },
-    b = { fg = colors.purple, bg = colors.bg },
+  a = { fg = colors.bg, bg = colors.purple, gui = 'bold' },
+  b = { fg = colors.purple, bg = colors.bg },
 }
 
 alice.replace = {
-    a = { colors.fg, bg = colors.orange, gui = 'bold' },
-    b = { fg = colors.orange, bg = colors.bg },
-    c = { fg = colors.fg, bg = colors.bg },
+  a = { colors.fg, bg = colors.orange, gui = 'bold' },
+  b = { fg = colors.orange, bg = colors.bg },
+  c = { fg = colors.fg, bg = colors.bg },
 }
 
 alice.insert = {
-    a = { fg = colors.fg, bg = colors.blue, gui = 'bold' },
-    b = { fg = colors.blue, bg = colors.bg },
-    c = { fg = colors.fg, bg = colors.bg },
+  a = { fg = colors.fg, bg = colors.blue, gui = 'bold' },
+  b = { fg = colors.blue, bg = colors.bg },
+  c = { fg = colors.fg, bg = colors.bg },
 }
 
 alice.terminal = {
-    a = { fg = colors.fg, bg = colors.pink, gui = 'bold' },
-    b = { fg = colors.fg, bg = colors.bg },
-    c = { fg = colors.fg, bg = colors.bg },
+  a = { fg = colors.fg, bg = colors.pink, gui = 'bold' },
+  b = { fg = colors.fg, bg = colors.bg },
+  c = { fg = colors.fg, bg = colors.bg },
 }
 
 alice.command = {
-    a = { fg = colors.fg, bg = colors.red, gui = 'bold' },
-    b = { fg = colors.red, bg = colors.bg },
-    c = { fg = colors.fg, bg = colors.bg },
+  a = { fg = colors.fg, bg = colors.red, gui = 'bold' },
+  b = { fg = colors.red, bg = colors.bg },
+  c = { fg = colors.fg, bg = colors.bg },
 }
 
 return alice
