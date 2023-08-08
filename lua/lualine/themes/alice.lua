@@ -16,7 +16,7 @@ local colors = {
 }
 
 alice.normal = {
-  a = { colors.fg, bg = colors.green, gui = 'bold' },
+  a = { colors.bg, bg = colors.green, gui = 'bold' },
   b = { fg = colors.green, bg = colors.bg },
   c = { fg = colors.fg, bg = colors.bg },
 }
@@ -33,7 +33,7 @@ alice.visual = {
 }
 
 alice.replace = {
-  a = { colors.fg, bg = colors.orange, gui = 'bold' },
+  a = { colors.bg, bg = colors.orange, gui = 'bold' },
   b = { fg = colors.orange, bg = colors.bg },
   c = { fg = colors.fg, bg = colors.bg },
 }
