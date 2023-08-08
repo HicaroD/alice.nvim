@@ -6,7 +6,7 @@ local colors = {
   purple = "#B294BB",
   yellow = "#F0C674",
   orange = "#DE935F",
-  blue = "#007ACC",
+  blue = "#70C6FF",
   pink = "#E6AACE",
   red = "#CC6666",
 }
