@@ -1,7 +1,6 @@
 local alice = {}
 
 local colors = {
-  grey = "#282828",
   green = "#B5BD68",
   purple = "#B294BB",
   yellow = "#F0C674",
@@ -9,6 +8,9 @@ local colors = {
   blue = "#70C6FF",
   pink = "#E6AACE",
   red = "#CC6666",
+  grey = "#282828",
+  darkgray = '#3c3836',
+  lightgray = '#504945',
 }
 
 alice.normal = {
@@ -23,9 +25,9 @@ alice.visual = {
 }
 
 alice.inactive = {
-  a = { fg = colors.grey, gui = 'bold' },
-  -- b = { },
-  -- c = { },
+  a = { bg = colors.darkgray, fg = colors.gray, gui = 'bold' },
+  b = { bg = colors.darkgray, fg = colors.gray },
+  c = { bg = colors.darkgray, fg = colors.gray }
 }
 
 alice.replace = {
