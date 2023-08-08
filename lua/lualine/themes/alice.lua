@@ -1,7 +1,7 @@
 local alice = {}
 
 local colors = {
-  green = "#868E3E",
+  green = "#788038",
   purple = "#B294BB",
   yellow = "#F0C674",
   orange = "#D57734",
