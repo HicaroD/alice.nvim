@@ -15,6 +15,7 @@ use "HicaroD/alice.nvim"
 1. [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 2. [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 3. [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+4. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Screenshots
 
