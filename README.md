@@ -10,6 +10,12 @@ A dark-based colorscheme for polyglot programmers.
 use "HicaroD/alice.nvim"
 ```
 
+### [vim-plug](https://github.com/junegunn/vim-plug)
+
+```vimscript
+Plug "HicaroD/alice.nvim"
+```
+
 ## Supported plugins
 
 1. [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
