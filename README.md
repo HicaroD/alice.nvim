@@ -30,8 +30,8 @@ use "HicaroD/alice.nvim"
 
 ## Inspirations
 
-1. Alice, my lovely girlfriend
-2. CodeAesthetic, an incredible YouTube channel about coding
+1. Alice, my lovely girlfriend.
+2. CodeAesthetic, an incredible YouTube channel about software development in general.
 
 ## License
 
