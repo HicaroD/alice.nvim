@@ -4,7 +4,7 @@ A dark-based colorscheme for polyglot programmers.
 
 ## Installation
 
-1. Packer
+### [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use "HicaroD/alice.nvim"
