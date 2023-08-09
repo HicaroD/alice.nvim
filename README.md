@@ -40,6 +40,10 @@ Plug "HicaroD/alice.nvim"
 1. Alice, my lovely girlfriend.
 2. CodeAesthetic, an incredible YouTube channel about software development in general.
 
+## Contributions
+
+If you find bugs or any kind of irregularity, feel free to open an issue.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
