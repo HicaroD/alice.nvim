@@ -1,6 +1,6 @@
 # Alice
 
-A dark-based colorscheme for polyglot programmers for [Neo]Vim.
+A dark-based colorscheme for polyglot programmers for Neovim / Vim.
 
 ## Installation
 
