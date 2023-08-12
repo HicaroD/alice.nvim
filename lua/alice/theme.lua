@@ -128,12 +128,12 @@ theme.set_style = function()
   highlight("CocMenuSel", { fg = colors.dark, bg = colors.darkcolumn })
 
   highlight("CocErrorSign", { fg = colors.error_red })
-  highlight("CocWarningSign", { fg = colors.yellow_warning })
+  highlight("CocWarningSign", { fg = colors.orange_warning })
   highlight("CocInfoSign", { fg = colors.purple })
   highlight("CocHintSign", { fg = colors.purple })
 
   highlight("CocErrorHighlight", { fg = colors.error_red, gui = "underline" })
-  highlight("CocWarningHighlight", { fg = colors.yellow_warning, gui = "underline" })
+  highlight("CocWarningHighlight", { fg = colors.orange_warning, gui = "underline" })
   highlight("CocInfoHighlight", { fg = colors.maya_blue, gui = "underline" })
   highlight("CocHintHighlight", { fg = colors.maya_blue, gui = "underline" })
 
