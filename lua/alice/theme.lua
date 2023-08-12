@@ -121,8 +121,6 @@ theme.set_style = function()
   highlight("@constant.builtin", { fg = colors.orange })
 
   -- COC.nvim
-  -- @@@ TODO: change colors of errors, warning and hints
-  -- @@@ TODO: change color of inlay hints
   -- @@@ TODO: change color of letters when completing with Coc
   highlight("CocHighlightText", { bg = colors.light_red })
   highlight("CocHighlightRead", { bg = colors.light_red })
@@ -135,7 +133,6 @@ theme.set_style = function()
   highlight("CocHintSign", { fg = colors.purple })
 
   highlight("CocErrorHighlight", { fg = colors.error_red, gui = "underline" })
-  -- highlight("CocUnusedHighlight", { fg = colors.maya_blue, gui = "underline" })
   highlight("CocWarningHighlight", { fg = colors.yellow_warning, gui = "underline" })
   highlight("CocInfoHighlight", { fg = colors.maya_blue, gui = "underline" })
   highlight("CocHintHighlight", { fg = colors.maya_blue, gui = "underline" })
