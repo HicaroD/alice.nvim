@@ -18,6 +18,7 @@ local colors = {
   purple_amethyst = "#A663CC",
   pink = "#E6AACE",
   yellow = "#F0C674",
+  yellow_warning = "#FBB63E",
   orange = "#DE935F",
   red = "#CC6666",
   light_red = "#3B2E2E",
