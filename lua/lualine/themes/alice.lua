@@ -7,6 +7,7 @@ local colors = {
   yellow = "#F0C674",
   orange = "#D57734",
   blue = "#70C6FF",
+  alice_blue = "#EBF7FE",
   pink = "#E6AACE",
   red = "#CC6666",
   grey = "#282828",
@@ -19,7 +20,7 @@ local colors = {
 alice.normal = {
   a = { fg = colors.bg, bg = colors.green, gui = 'bold' },
   b = { fg = colors.green, bg = colors.bg },
-  c = { fg = colors.white, bg = colors.bg },
+  c = { fg = colors.alice_blue, bg = colors.bg },
 }
 
 alice.inactive = {
