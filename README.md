@@ -29,7 +29,10 @@ Plug "HicaroD/alice.nvim"
 
 ![typescript](./screenshots/typescript.png)
 
-![flutter_dart](./screenshots/flutter_dart.png)
+![python](./screenshots/python.png)
+
+Terminal emulator: [Kitty](https://sw.kovidgoyal.net/kitty/)
+Font family: [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
 
 ## Thanks to
 
