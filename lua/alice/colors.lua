@@ -1,5 +1,5 @@
 local colors = {
-  normal_text = "#EDF4FA",
+  normal_text = "#C8C8C8",
   background = "#1D1F21",
   foreground = "#C5C8C6",
   bg_line = "#282A2E",
