@@ -65,7 +65,7 @@ theme.set_style = function()
   highlight("WarningMsg", { fg = colors.red })
   highlight("LongLineWarning", { bg = colors.dark_red, gui = "underline" })
   highlight("ColorColumn", { bg = colors.line })
-  highlight("Comment", { fg = colors.comment, gui = "italic" })
+  highlight("Comment", { fg = colors.comment })
 
   highlight("Constant", { fg = colors.orange })
   highlight("String", { fg = colors.green })
